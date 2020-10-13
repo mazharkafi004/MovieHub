@@ -26,50 +26,65 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="action-movie-list.html">Action <br>Movies <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="comedy-movie-list.html">Comedy <br>Movies <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="drama-movie-list.html">Drama <br>Movies <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="musical-movie-list.html">Musical <br>Movies <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="romantic-movie-list.html">Romantic <br>Movies <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="thriller-movie-list.html">Thriller <br>Movies <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="Malyalam_index.html">Malayalam <br>Movies <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="tamil-index.html">Tamil <br>Movies <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="telegu_index.html">Telegu <br>Movies <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="Kannada_index.html">Kannada <br>Movies <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="romantic-movie-list.html">Bangla <br>Movies <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="#">Korean <br>Movies <span class="sr-only">(current)</span></a>
           </div>
         </div>
       </nav>
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="box">
-            <p class="short_box"> <a href="Malyalam_index.html">Malayalam Movies</a> </p>
-          
-        </div>
-    </div>
+      <p class="intro">Popular Movies</p>
+      <div class="container">
+        <img src="96.jpg" alt="Snow" style="width:100%">
+        <button class="btn"> <a href="96.html">96</a></button>
+      </div>
+      <br>
+      <br>
+      <div class="container">
+        <img src="Anarkali.jpg" alt="Snow" style="width:100%">
+        <button class="btn"> <a href="Anarkali.html">Anarkali</a></button>
+      </div>
+      <br>
+      <br>
+      <div class="container">
+        <img src="Drishyam.jpg" alt="Snow" style="width:100%">
+        <button class="btn"> <a href="drishyam.html">Drishyam</a></button>
+      </div>
+      <br>
+      <br>
+      <div class="container">
+        <img src="Ishq.jpg" alt="Snow" style="width:100%">
+        <button class="btn"> <a href="Ishq.html">Ishq</a></button>
+      </div>
+      <br>
+      <br>
+      <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-fw fa-home"></i>Back To Top</button>
+     
 
-    <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="box">
-            <p class="short_box  "> <a href="tamil-index.html">Tamil Movies</a> </p> </div>
-    </div>
-  
-    <div class="col-lg-4 col-md-12 col-sm-12">
-        <div class="box">
-            <p class="short_box "> <a href="#">Telegu Movies</a> </p>
-        </div>	
-    </div>
-    <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="box">
-            <p class="short_box "> <a href="#">Kannada Movies</a> </p>
-          
-        </div>
-    </div>
 
-    <div class="col-lg-4 col-md-6 col-sm-12">
-        <div class="box">
-            <p class="short_box  "> <a href="#">Bangla Movies</a> </p> </div>
-    </div>
-  
-    <div class="col-lg-4 col-md-12 col-sm-12">
-        <div class="box">
-            <p class="short_box "> <a href="#">Korean Movies</a> </p>
-        </div>	
-    </div>
-
+      <script>
+      
+        var mybutton = document.getElementById("myBtn");
+        
+     
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+     
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
         
 </body>
 </html>

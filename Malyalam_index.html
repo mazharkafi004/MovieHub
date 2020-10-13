@@ -24,12 +24,12 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="action-movie-list.html">Action <br>Movies <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="comedy-movie-list.html">Comedy <br>Movies <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="drama-movie-list.html">Drama <br>Movies <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="musical-movie-list.html">Musical <br>Movies <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="romantic-movie-list.html">Romantic <br>Movies <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link active" href="thriller-movie-list.html">Thriller <br>Movies <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="Malyalam_index.html">Malayalam <br>Movies <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="tamil-index.html">Tamil <br>Movies <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="telegu_index.html">Telegu <br>Movies <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="Kannada_index.html">Kannada <br>Movies <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="romantic-movie-list.html">Bangla <br>Movies <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link active" href="#">Korean <br>Movies <span class="sr-only">(current)</span></a>
           </div>
         </div>
       </nav>
@@ -81,8 +81,34 @@
     <p>
         <a href="Malyalam_list-2019.html">2019 !</a>
     </p>
+    
 </div>
    </div>
-       
+   <br>
+   <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-fw fa-home"></i>Back To Top</button>
+
+
+
+   <script>
+   
+     var mybutton = document.getElementById("myBtn");
+     
+  
+     window.onscroll = function() {scrollFunction()};
+     
+     function scrollFunction() {
+       if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+         mybutton.style.display = "block";
+       } else {
+         mybutton.style.display = "none";
+       }
+     }
+     
+  
+     function topFunction() {
+       document.body.scrollTop = 0;
+       document.documentElement.scrollTop = 0;
+     }
+     </script>
 </body>
 </html>
