@@ -10,6 +10,7 @@
     color: blue;
     text-decoration: none;
   }
+ 
   
 
   body {
@@ -20,7 +21,7 @@
 color: black;
 }
 .short_box{
-  background-color: orange;
+  background-color:rgb(12, 89, 141);
   
   text-align: center;
     overflow: none;
@@ -31,14 +32,14 @@ color: black;
    
     color: white;
     float: left;
-    border-radius: 1px;
+  
     border-top-color: gray;
     border-bottom-color: gray;
     margin-right: 35px;
     margin-top: 10px;
     font-weight: bold;
     padding-top: 20px;
-    position: relative;
+    
     font-size: .6cm;
   }
   
@@ -58,9 +59,9 @@ color: black;
   }
 
 .lol{
-  color: blue;
+  color: black;
   background-color: white;
-  text-decoration-color: white;
+ 
   text-align: left;
     overflow: none;
     
@@ -139,7 +140,7 @@ color: black;
 }
 .bold{
   font-size: 1cm;
-  color: rgb(9, 23, 37);
+  color: white
 }
 .dllink{
 
@@ -153,21 +154,24 @@ color: black;
 .kn{
   color: blue;
 }
+a{
+  color: black;
+}
 @media (min-width: 0px) and (max-width: 750px) {
   
  
   .short_bord{
-    margin-left:25%;
+    margin-left:20%;
   }
  .trailer{
   margin-left:15%;
   width: auto;
  }
  .name{
-  margin-left:20%;
+  margin-left:10%;
  }
  .genre{
-  margin-left:30%;
+  margin-left:25%;
  }
 }
 ul{
@@ -175,4 +179,69 @@ ul{
 }
 .margin{
   margin-bottom: 40px;
+}
+.button{
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  font-size: .7cm;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px greenyellow;
+}
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.butto {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #4CAF50;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.butto span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.butto span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.butto:hover span {
+  padding-right: 25px;
+}
+
+.butto:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.butto:active{
+  transform: translateY(4px);
+
 }
