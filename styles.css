@@ -268,7 +268,7 @@ ul{
   -ms-transform: translate(-50%, -50%);
   background-color: green;
   color: white;
-  font-size: .7cm;
+  font-size: .55cm;
   padding: 16px 30px;
   border: none;
   cursor: pointer;
@@ -301,7 +301,7 @@ ul{
 }
 .column {
   float: left;
-  width: 33.33%;
+  width: 25%;
   padding: 5px;
 }
 
@@ -313,8 +313,25 @@ ul{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .column {
     width: 100%;
+  }
+  .container .btn {
+    font-size: .55cm;
+  }
+}
+@media (min-width: 701px) and (max-width: 1150px) {
+  .column {
+    width: 50%;
+  }
+  .container .btn {
+    font-size: .5cm;
+  }
+}
+@media (min-width: 1151px) and (max-width: 1500px) {
+  
+  .container .btn {
+    font-size: .38cm;
   }
 }
