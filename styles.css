@@ -315,21 +315,30 @@ ul{
 
 @media screen and (max-width: 700px) {
   .column {
-    width: 100%;
-  }
-  .container .btn {
-    font-size: .55cm;
-  }
-}
-@media (min-width: 701px) and (max-width: 1150px) {
-  .column {
     width: 50%;
   }
+  .short_bord{
+    margin-left: 35%;
+  }
   .container .btn {
-    font-size: .5cm;
+    font-size: .4cm;
+    top: 85%;
+    padding: 15px 10px;
+    transform: translate(-55%, -50%);
   }
 }
-@media (min-width: 1151px) and (max-width: 1500px) {
+@media (min-width: 701px) and (max-width: 1170px) {
+  .column {
+    width: 33.33%;
+  }
+  .container .btn {
+    font-size: .4cm;
+    padding: 15px 10px;
+    top: 85%;
+    transform: translate(-55%, -50%);
+  }
+}
+@media (min-width: 1171px) and (max-width: 1500px) {
   
   .container .btn {
     font-size: .38cm;
