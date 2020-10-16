@@ -311,14 +311,27 @@ ul{
   clear: both;
   display: table;
 }
-
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
   .column {
     width: 50%;
   }
   .short_bord{
-    margin-left: 35%;
+    margin-left: 20%;
+  }
+  .container .btn {
+    font-size: .35cm;
+    top: 85%;
+    padding: 15px 10px;
+    transform: translate(-55%, -50%);
+  }
+}
+
+@media (min-width: 501px) and (max-width: 700px) {
+  .column {
+    width: 50%;
+  }
+  .short_bord{
+    margin-left: 20%;
   }
   .container .btn {
     font-size: .4cm;
